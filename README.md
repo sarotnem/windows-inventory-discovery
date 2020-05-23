@@ -31,7 +31,7 @@ After every successful execution it saves the inventory document in the `reports
 For every action such as start of the execution, document creation, finish e.t.c. a log entry is created in the `app_log.log` file.
 
 ### Domain Execution
-It is advised to create a policy in the Active Directory Domain Controller to execute the script after user login. In case the script has been executed before its execution stops right before collecting the information, so a new report is not generated.
+It is advised to create a policy in the Active Directory Domain Controller to execute the script after user login. In case the script has been executed before, the execution stops right before collecting the information, so a new report is not generated.
 
 ## Built With
 
